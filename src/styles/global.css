@@ -1,0 +1,9 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, rgb(244, 165, 244), rgb(66, 2, 66));
+  background-repeat: no-repeat;
+  min-height: 100%;
+}/*# sourceMappingURL=global.css.map */
