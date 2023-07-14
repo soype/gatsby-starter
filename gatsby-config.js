@@ -8,5 +8,18 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  plugins: [
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "notes",
+        path: `${__dirname}/src/notes`
+      }
+    }
+  ],
+  siteMetadata: {
+    title: "Web Warrior",
+    description: "Web dev portfolio",
+    copyright: "2023 - Pedro Henestroza"
+  }
 }
